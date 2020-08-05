@@ -26,8 +26,7 @@
 		margin: 0;
 		padding: 0;
 		display: grid;
-		gap: 20px;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap:20px;
 	}
 	
 	.grid > li{
@@ -91,10 +90,37 @@
 	}
 	a > p {
 		font-size: 16px;
-		color:black;
+		color: black;
 	}
 	.grid > li > a{
 		text-decoration: none;
+	}
+
+	@media (min-width: 768px) { 
+	    body {
+			background-color: blue;
+		}
+		.grid{
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+	@media (min-width: 992px) { 
+	    body {
+			background-color: green;
+		}
+		.grid{
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+
+	@media (min-width: 1200px) { 
+		body {
+			background-color: yellow;
+		}
+		.grid{
+			grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		}
 	}
 	</style>
   </head>
@@ -113,25 +139,25 @@
 				 I also can handle database design, implementation and security with Mysql as well as backend queries using PHP.
 			  </p>
 			<h1 id="resume">Resume</h1>
-			<a href="CV.pdf">PDF</a>
+			 <a href="CV.pdf">PDF</a>
 			 <h1 id="projects">Projects</h1>
 			  <ul class="grid">
-			    	<li>
-					<a class="image" href="https://www.cafedb.xyz/"><img src="cafedblogo.png" width="100%" height="72%">
+			    <li>
+					<a href="https://www.cafedb.xyz/"><img src="cafedblogo.png" width="200px" height="200px">
 					<p>
 					  A full stack website for a small coffee business. 
 					</p>
 					</a>
 				</li>
 				<li>
-				  	<a class="image" href="#"><img src="workoutlogo.png" width="100%" height="72%">
+				  <a id="project2" href="#"><img class="image" src="workoutlogo.png" width="200px" height="200px">
 				  	<p>
 						A frontend website to calculate a workout.
 					</p>
 					</a>
 				</li>
 				<li>
-				  <h2>Project 3</h2>
+					<h2>Project 3</h2>
 					<p>
 					  meatloaf, buffalo shankle picanha meatball shank pork loin pastrami jerky. Sirloin filet mignon chuck 
 					  leberkas bresaola, frankfurter pastrami pork turkey pig short ribs turducken tenderloin pork belly.
