@@ -96,29 +96,6 @@
 	.grid > li > a{
 		text-decoration: none;
 	}
-		@media (min-width: 576px) {
-	    body {
-			background-color: red;
-		}
-	}
-
-	@media (min-width: 768px) { 
-	    body {
-			background-color: blue;
-		}
-	}
-
-	@media (min-width: 992px) { 
-	    body {
-			background-color: green;
-		}
-	}
-
-	@media (min-width: 1200px) { 
-		body {
-			background-color: yellow;
-		}
-	}
 	</style>
   </head>
 	<body>
