@@ -106,7 +106,7 @@
 				 I also can handle database design, implementation and security with Mysql as well as backend queries using PHP.
 			  </p>
 			<h1 id="resume">Resume</h1>
-			 <a href="">Download</a>
+			<a href="CV.pdf">PDF</a>
 			 <h1 id="projects">Projects</h1>
 			  <ul class="grid">
 			    <li>
