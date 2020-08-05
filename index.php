@@ -97,30 +97,26 @@
 	}
 
 	@media (min-width: 768px) { 
-	    body {
-			background-color: blue;
-		}
 		.grid{
 			grid-template-columns: 1fr 1fr;
 		}
 	}
 
 	@media (min-width: 992px) { 
-	    body {
-			background-color: green;
-		}
 		.grid{
 			grid-template-columns: 1fr 1fr 1fr;
 		}
 	}
 
 	@media (min-width: 1200px) { 
-		body {
-			background-color: yellow;
-		}
 		.grid{
 			grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 		}
+	}
+	a > img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	</style>
   </head>
