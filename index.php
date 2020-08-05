@@ -91,6 +91,7 @@
 	}
 	a > p {
 		font-size: 16px;
+		color:black;
 	}
 	.grid > li > a{
 		text-decoration: none;
