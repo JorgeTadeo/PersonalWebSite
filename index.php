@@ -96,6 +96,10 @@
 	.grid > li > a{
 		text-decoration: none;
 	}
+	.image{
+		min-width: 200px !important; 
+		max-width: 1fr !important;
+	}
 	</style>
   </head>
 	<body>
@@ -116,15 +120,15 @@
 			<a href="CV.pdf">PDF</a>
 			 <h1 id="projects">Projects</h1>
 			  <ul class="grid">
-			    <li>
-					<a href="https://www.cafedb.xyz/"><img src="cafedblogo.png" width="100%" height="72%">
+			    	<li>
+					<a class="image" href="https://www.cafedb.xyz/"><img src="cafedblogo.png" width="100%" height="72%">
 					<p>
 					  A full stack website for a small coffee business. 
 					</p>
 					</a>
 				</li>
 				<li>
-				  <a href="#"><img src="workoutlogo.png" width="100%" height="72%">
+				  	<a class="image" href="#"><img src="workoutlogo.png" width="100%" height="72%">
 				  	<p>
 						A frontend website to calculate a workout.
 					</p>
