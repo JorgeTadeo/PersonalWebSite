@@ -57,8 +57,8 @@
 		color: white;
 	}
 	.circle{
-		height: 50px;
-		width: 50px;
+		height: 100px;
+		width: 100px;
 		border-radius: 50%;
 		background-color: #0336FF;
 		text-decoration: none;
@@ -89,6 +89,12 @@
 	.nav{
 		margin-top: 49.8px;
 	}
+	a > p {
+		font-size: 16px;
+	}
+	.grid > li > a{
+		text-decoration: none;
+	}
 	</style>
   </head>
 	<body>
@@ -110,16 +116,18 @@
 			 <h1 id="projects">Projects</h1>
 			  <ul class="grid">
 			    <li>
-					<a href="https://www.cafedb.xyz/"><img src="cafedblogo.png" width="100%" height="72%"></a>
+					<a href="https://www.cafedb.xyz/"><img src="cafedblogo.png" width="100%" height="72%">
 					<p>
 					  A full stack website for a small coffee business. 
 					</p>
+					</a>
 				</li>
 				<li>
-				  <a href="#"><img src="workoutlogo.png" width="100%" height="72%"></a>
+				  <a href="#"><img src="workoutlogo.png" width="100%" height="72%">
 				  	<p>
 						A frontend website to calculate a workout.
 					</p>
+					</a>
 				</li>
 				<li>
 				  <h2>Project 3</h2>
@@ -166,7 +174,7 @@
 		</article>
 	  </main>
 	  <div class="bottom-icon">
-	    <a class="fixedbutton circle container" href="mailto: jorgetadeo510@gmail.com"><i class="fa fa-envelope-o icon" style="font-size:24px; height:24px;"></i></a>
+	    <a class="fixedbutton circle container" href="mailto: jorgetadeo510@gmail.com"><i class="fa fa-envelope-o icon" style="font-size:50px; height:50px;"></i></a>
 	  </div>
 	</div>
 	</body>
