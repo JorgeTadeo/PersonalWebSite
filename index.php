@@ -96,9 +96,28 @@
 	.grid > li > a{
 		text-decoration: none;
 	}
-	.image{
-		min-width: 200px !important; 
-		max-width: 1fr !important;
+		@media (min-width: 576px) {
+	    body {
+			background-color: red;
+		}
+	}
+
+	@media (min-width: 768px) { 
+	    body {
+			background-color: blue;
+		}
+	}
+
+	@media (min-width: 992px) { 
+	    body {
+			background-color: green;
+		}
+	}
+
+	@media (min-width: 1200px) { 
+		body {
+			background-color: yellow;
+		}
 	}
 	</style>
   </head>
