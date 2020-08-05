@@ -146,7 +146,7 @@
 					</a>
 				</li>
 				<li>
-				  <a id="project2" href="#"><img class="image" src="workoutlogo.png" width="200px" height="200px">
+				  <a id="project2" href="https://my-workout-web-app.herokuapp.com/"><img class="image" src="workoutlogo.png" width="200px" height="200px">
 				  	<p>
 						A frontend website to calculate a workout.
 					</p>
