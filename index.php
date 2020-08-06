@@ -153,10 +153,11 @@
 					</a>
 				</li>
 				<li>
-				 <a  href="https://weather-forecast-ap.herokuapp.com/"><img class="image" src="weatherlogoblack.png" width="200px" height="200px">
+				 	<a  href="https://weather-forecast-ap.herokuapp.com/"><img class="image" src="weatherlogoblack.png" width="200px" height="200px">
 					<p>
 					  	A simple weather app that tells you about the current weather. 
 					</p>
+					</a>
 				</li>
 				<li>
 				  <h2>Project 4</h2>
