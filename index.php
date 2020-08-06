@@ -153,10 +153,9 @@
 					</a>
 				</li>
 				<li>
-					<h2>Project 3</h2>
+				 <a  href="https://weather-forecast-ap.herokuapp.com/"><img class="image" src="weatherlogoblack.png" width="200px" height="200px">
 					<p>
-					  meatloaf, buffalo shankle picanha meatball shank pork loin pastrami jerky. Sirloin filet mignon chuck 
-					  leberkas bresaola, frankfurter pastrami pork turkey pig short ribs turducken tenderloin pork belly.
+					  	A simple weather app that tells you about the current weather. 
 					</p>
 				</li>
 				<li>
